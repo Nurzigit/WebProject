@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+}
+.menu-text {
+    color: white;
+}
+.menu {
+    align-items: center;
+}
+.menu > li > a {
+    color: white;
+}
+
+.menu > li > a:hover {
+    transition: color 0.7s;
+    color: grey;
+}
+
+.top-bar, .top-bar ul {
+    background-color: rgb(57, 57, 233);
+}
+
+
+/* Contacts menu */
+.menu-hook {
+    background-image: url("https://ht.kz/img/header-bg/main-1378.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.menu__contacts {
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.link__socials-button {
+    width: 150px;
+    display: grid;
+    grid-template-columns: 30px 30px 30px 35px;
+    justify-content: space-between;
+}
+
+
+.link__call-buttons {
+    width: 350px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.call__link-number {
+    width: 140px;
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.call__link-button > a > button {
+    color: white;
+    border: 1px solid rgb(57, 57, 233);
+    background-color: rgb(57, 57, 233);
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+}
+.call-number > li > a {
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.call-number > li > a:hover {
+    transition: color 0.7s;
+    color: grey;
+}
+.call__link-button > a > button:hover {
+    background-color: blue;
+    transition: background-color 0.7s;
+}
+
+.main__text {
+    width: 90%;
+    height: 800px;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: end;
+}
